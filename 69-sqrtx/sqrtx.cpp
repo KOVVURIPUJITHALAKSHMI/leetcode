@@ -12,7 +12,7 @@ class Solution {
         l = m + 1;
     }
 
-    // l := the minimum number s.t. l * l > x
+
     return l - 1;
   }
 };
