@@ -30,7 +30,7 @@ class Solution {
         int end=n-1;
         while (start < end) {
             int mid = start + (end - start) / 2;
-            if (mid < end && nums[mid] > nums[mid + 1]) {
+            if (nums[mid] > nums[mid + 1]) {
                 return mid;
             }
             if (mid > start && nums[mid] < nums[mid - 1]) {
